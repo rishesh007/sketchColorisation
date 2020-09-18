@@ -194,8 +194,8 @@ store2 = 'sketchColorisation/result/store2/'
 
 # samples = len(os.listdir(dataset))
 # val_samples = len(os.listdir(val_data))
-samples = 16
-val_samples = 16
+samples = 8
+val_samples = 8
 
 rgb = np.zeros((samples, x_shape, y_shape, 3))
 gray = np.zeros((samples, x_shape, y_shape, 1))
